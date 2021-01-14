@@ -1140,12 +1140,12 @@
 
 .u-section-6 .u-list-1 {
   min-height: 661px;
-  grid-template-columns: repeat(2, 50%);
-  grid-template-rows: repeat(2, auto);
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto;
   height: auto;
   width: 1140px;
-  grid-gap: 0;
-  margin: -324px auto 0;
+  grid-gap: 0px 0px;
+  margin: -324px auto 60px;
 }
 
 .u-section-6 .u-list-item-1 {
@@ -1326,13 +1326,6 @@
   font-size: 0.875rem;
   font-style: italic;
   margin: 20px 0 0;
-}
-
-.u-section-6 .u-btn-1 {
-  border-style: solid;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin: 95px auto 0;
 }
 
 @media (max-width: 1199px) {
