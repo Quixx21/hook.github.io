@@ -18885,7 +18885,7 @@ a.u-button-style.u-border-20 {
 }
 /*begin-variables font-family*/
 .u-body {
-  font-family: 'Open Sans',sans-serif;
+  font-family: Raleway,sans-serif;
 }
 h1,
 h2,
@@ -18893,7 +18893,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Roboto,sans-serif;
+  font-family: Lobster,cursive;
 }
 /*end-variables font-family*/
 /*begin-variables color*/
@@ -18913,10 +18913,10 @@ h6 {
 /*end-variables color*/
 /*begin-variables font*/
 .u-custom-font.u-text-font {
-  font-family: 'Open Sans',sans-serif !important;
+  font-family: Raleway,sans-serif !important;
 }
 .u-custom-font.u-heading-font {
-  font-family: Roboto,sans-serif !important;
+  font-family: Lobster,cursive !important;
 }
 /*end-variables font*/
 /*begin-variables colors*/
@@ -31097,11 +31097,16 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         h2:not(.u-subtitle)
         {
-        font-weight: 400;
-        font-size: 2.25rem;
+        font-size: 3.75rem;
         line-height: 1.1;
         margin-top: 20px;
         margin-bottom: 20px;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        list-icon-spacing: 0.3;
+        list-icon-size: 0.8;
+        font-family: Oswald, sans-serif;
         }
         h3
         {
@@ -31184,6 +31189,14 @@ a.u-link.u-text-hover-grey-90:hover {
         {
         margin-top: 20px;
         margin-bottom: 20px;
+        }
+        .u-body
+        {
+        background-image: url("undefined");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
         }
         /** common-rules **/
 
@@ -31361,11 +31374,23 @@ a.u-link.u-text-hover-grey-90:hover {
   max-width: 63px;
   max-height: 63px;
 }
+
+.u-header .u-btn-1 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-image: none;
+  margin: -60px auto 11px 27px;
+}
 @media (max-width: 1199px) {
   .u-header .u-image-1 {
     margin-left: 0;
     width: 62px;
     height: 63px;
+  }
+
+  .u-header .u-btn-1 {
+    margin-left: 0;
   }
 }
 
@@ -31373,7 +31398,6 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-image-1 {
     width: 63px;
     margin-left: auto;
-    margin-bottom: 57px;
   }
 }
 @media (max-width: 575px) {
